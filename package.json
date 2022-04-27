@@ -1,7 +1,7 @@
 {
   "name": "create-repo",
   "description": "CLI to generate Git repos of different flavors",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "author": "Naresh Bhatia",
   "license": "MIT",
   "repository": {

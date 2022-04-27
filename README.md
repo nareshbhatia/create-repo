@@ -18,7 +18,7 @@ npm run build
 npm run generate turbo new
 
 # test the generated repo
-cd .tmp
+cd .tmp/my-repo
 npm install
 ```
 
@@ -40,4 +40,7 @@ create-repo turbo new
 # test the generated repo
 cd my-repo
 npm install
+
+# If you have published the plugin locally, then you can unpublish it like this:
+npm unlink -g create-repo
 ```
