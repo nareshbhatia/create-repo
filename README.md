@@ -1,4 +1,4 @@
-# create-repo
+# make-repo
 
 CLI to generate Git repos of different flavors
 
@@ -35,12 +35,12 @@ npm run build
 npm publish
 
 # run the generator
-create-repo turbo new
+make-repo turbo new
 
 # test the generated repo
 cd my-repo
 npm install
 
 # If you have published the plugin locally, then you can unpublish it like this:
-npm unlink -g create-repo
+npm unlink -g make-repo
 ```

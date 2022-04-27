@@ -1,17 +1,17 @@
 {
-  "name": "create-repo",
+  "name": "make-repo",
   "description": "CLI to generate Git repos of different flavors",
   "version": "0.0.1",
   "author": "Naresh Bhatia",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nareshbhatia/create-repo.git"
+    "url": "https://github.com/nareshbhatia/make-repo.git"
   },
   "keywords": [],
   "main": "./dist/index.js",
   "bin": {
-    "create-repo": "./dist/index.js"
+    "make-repo": "./dist/index.js"
   },
   "scripts": {
     "build": "tsc",
