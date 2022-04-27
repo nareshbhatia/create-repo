@@ -8,16 +8,16 @@ Add a second argument '.tmp' to line 10 in src/index.ts. This should never be
 checked in.
 
 ```bash
-# install dependencies
+# Install dependencies
 npm install
 
-# compile /src to /dist
+# Compile /src to /dist
 npm run build
 
-# generate a new repo in .tmp
+# Generate a new repo in .tmp
 npm run generate turbo new
 
-# test the generated repo
+# Test the generated repo
 cd .tmp/my-repo
 npm install
 ```
@@ -27,17 +27,21 @@ npm install
 Remove the second argument '.tmp' from line 10 in src/index.ts
 
 ```bash
-# compile /src to /dist
+# Compile /src to /dist
 npm run build
 
-# publish the package to npm
-# (alternatively use npm link to publish locally)
+# Publish the package to npm
+# Alternatively use npm link to publish locally
 npm publish
 
-# run the generator
-make-repo turbo new
+# Run the generator
+# Alternatively you can install make-repo globally and skip the npx part -
+# better option if you want to make repos on a plane :-)
+#   npm install -g make-repo
+#   make-repo turbo new
+npx make-repo turbo new
 
-# test the generated repo
+# Test the generated repo
 cd my-repo
 npm install
 
