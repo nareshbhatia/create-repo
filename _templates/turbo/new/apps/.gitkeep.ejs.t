@@ -1,0 +1,3 @@
+---
+to: <%= name %>/apps/.gitkeep
+---

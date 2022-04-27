@@ -1,0 +1,27 @@
+{
+  "name": "create-repo",
+  "description": "CLI to generate Git repos of different flavors",
+  "version": "0.0.0",
+  "author": "Naresh Bhatia",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nareshbhatia/create-repo.git"
+  },
+  "keywords": [],
+  "main": "./dist/index.js",
+  "bin": {
+    "create-repo": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "generate": "node ./dist/index.js",
+    "clean": "rimraf ./dist ./.tmp"
+  },
+  "dependencies": {
+    "hygen": "^6.2.0",
+    "prettier": "^2.6.2",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.6.3"
+  }
+}

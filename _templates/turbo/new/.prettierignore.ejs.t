@@ -1,0 +1,9 @@
+---
+to: <%= name %>/.prettierignore
+---
+package.json
+package-lock.json
+src/graphql/schema.json
+*.snap
+build
+dist
